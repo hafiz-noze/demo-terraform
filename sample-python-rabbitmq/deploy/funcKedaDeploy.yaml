@@ -1,0 +1,108 @@
+data:
+  APP_FRESHNESS_THRESHOLD_MS: NzAwMA==
+  APPINSIGHTS_INSTRUMENTATIONKEY: YjIyMTk1ODMtYmQ4ZS00YmY0LTljYzktOTE5ZGQ3MDMyOTQy
+  APPLICATION_CACHE_KEY: bm96ZQ==
+  APPLICATIONINSIGHTS_CONNECTION_STRING: SW5zdHJ1bWVudGF0aW9uS2V5PWIyMjE5NTgzLWJkOGUtNGJmNC05Y2M5LTkxOWRkNzAzMjk0MjtJbmdlc3Rpb25FbmRwb2ludD1odHRwczovL2NlbnRyYWx1cy0wLmluLmFwcGxpY2F0aW9uaW5zaWdodHMuYXp1cmUuY29tLw==
+  AzureWebJobsStorage: RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPWFpcnF1YWxpdHlkZXZhcHBsaWNhdGlvbjtBY2NvdW50S2V5PUsxRFVka1ZJOERodFJSR3ZnSDdTMVlocGo2ajIrWGg5Q2FDWDlVMkVINWMyVHExUFNINEVQSHdqdHBrTjlXZTY0QnVqMkdvMlNOcy9WUXZkNmVtSU13PT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA==
+  BASELINE_LENGTH: NDU=
+  bsheventhub_airqualitydevapplicationazurefn_EVENTHUB: RW5kcG9pbnQ9c2I6Ly9haXItcXVhbGl0eS1wcm9kLnNlcnZpY2VidXMud2luZG93cy5uZXQvO1NoYXJlZEFjY2Vzc0tleU5hbWU9YWlycXVhbGl0eS1kZXY7U2hhcmVkQWNjZXNzS2V5PUpFZjFmSUV5SEE1MmdTVzJDRktYQ2V0L0FWbkE2SUhtTDVJMG5kT296eFk9
+  bsheventhub_airqualityprodapplicationazurefn_EVENTHUB: RW5kcG9pbnQ9c2I6Ly9haXItcXVhbGl0eS1wcm9kLnNlcnZpY2VidXMud2luZG93cy5uZXQvO1NoYXJlZEFjY2Vzc0tleU5hbWU9YWlycXVhbGl0eS1wcm9kO1NoYXJlZEFjY2Vzc0tleT1mLzNKYVZhUVVZUTdKT2RmUkZTYUpxUlZ3em9HZ1FWbzYyMnJpNmk2NTNFPQ==
+  bsheventhub_airqualityresponsesazurefn_EVENTHUB: RW5kcG9pbnQ9c2I6Ly9ic2gtZXZlbnRodWIuc2VydmljZWJ1cy53aW5kb3dzLm5ldC87U2hhcmVkQWNjZXNzS2V5TmFtZT1haXJxdWFsaXR5LXJlc3BvbnNlcy1henVyZS1mbjtTaGFyZWRBY2Nlc3NLZXk9czI1bitqQnc0S1A5R3VsSHpidDZ0QkcrNFRmZlNzZ3hDbmkzRVEzSjdqVT07RW50aXR5UGF0aD1haXJxdWFsaXR5LXJlc3BvbnNlcw==
+  CACHE_EXPIRATION_SECONDS: OTA=
+  CO2_BIAS: LTEuMA==
+  CO2_FREQUENCY: MTA=
+  CO2_OFFSET: MA==
+  FUNCTIONS_EXTENSION_VERSION: fjM=
+  FUNCTIONS_WORKER_RUNTIME: cHl0aG9u
+  NH3_BIAS: LTEuMA==
+  NH3_FREQUENCY: OQ==
+  NH3_OFFSET: MA==
+  NO2_BIAS: LTEuMA==
+  NO2_FREQUENCY: MzA=
+  NO2_OFFSET: MA==
+  RABBITMQCONNECTION: YW1xcDovL3JhYmJpdDpEelpuamRNd2dLQDUyLjIyNi4yMTEuMTQ1OjU2NzIv
+  REDIS_DB: MA==
+  REDIS_HOST: MTM3LjExNi42MS4yMzM=
+  REDIS_PASSWORD: WG1DUFB0T1huZEdyUlpWM1J6U1RTeER1dVNwUEpqUGlWMjdGQjJ4ZldOVWFSSzIvREtEaHljVVpmWXBoWmFwUUVlaFZVaVY1bVZxdi9YOGE=
+  REDIS_PORT: NjM3OQ==
+  REDIS_SSL: RmFsc2U=
+  TVOC_BIAS: LTEuMA==
+  TVOC_FREQUENCY: MzA=
+  TVOC_OFFSET: MA==
+  INFERENCE_TIMESCABLEDB_CONNECTION_STRING: ZGJuYW1lPWluZmVyZW5jZSB1c2VyPXBvc3RncmVzIHBhc3N3b3JkPVdlbGNvbWVAMTIzIGhvc3Q9NTIuMjI2LjQyLjgy
+  AzureWebJobs.dd.Disabled: dHJ1ZQ==
+  C4H8O_BIAS: LTEuMA==
+  C4H8O_FREQUENCY: MzA=
+  C4H8O_OFFSET: MA==
+  BASELINE_CONNECTION_STRING: RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPWFpcnF1YWxpdHlkZXZhcHBsaWNhdGlvbjtBY2NvdW50S2V5PUsxRFVka1ZJOERodFJSR3ZnSDdTMVlocGo2ajIrWGg5Q2FDWDlVMkVINWMyVHExUFNINEVQSHdqdHBrTjlXZTY0QnVqMkdvMlNOcy9WUXZkNmVtSU13PT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA==
+apiVersion: v1
+kind: Secret
+metadata:
+  name: noze-prediction-pipeline
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: noze-prediction-pipeline
+  labels:
+    app: noze-prediction-pipeline
+spec:
+  selector:
+    matchLabels:
+      app: noze-prediction-pipeline
+  template:
+    metadata:
+      labels:
+        app: noze-prediction-pipeline
+    spec:
+      containers:
+      - name: noze-prediction-pipeline
+        image: stratuscentcontainerregistry.azurecr.io/noze-prediction-pipeline:latest
+        env:
+        - name: AzureFunctionsJobHost__functions__0
+          value: noze-prediction-pipeline
+        envFrom:
+        - secretRef:
+            name: noze-prediction-pipeline
+        readinessProbe:
+          failureThreshold: 3
+          periodSeconds: 10
+          successThreshold: 1
+          timeoutSeconds: 240
+          httpGet:
+            path: /
+            port: 80
+            scheme: HTTP
+        startupProbe:
+          failureThreshold: 3
+          periodSeconds: 10
+          successThreshold: 1
+          timeoutSeconds: 240
+          httpGet:
+            path: /
+            port: 80
+            scheme: HTTP
+      imagePullSecrets: 
+        - name:  draft-pullsecret
+---
+apiVersion: keda.sh/v1alpha1
+kind: ScaledObject
+metadata:
+  name: noze-prediction-pipeline
+  labels: {}
+spec:
+  scaleTargetRef:
+    name: noze-prediction-pipeline
+  pollingInterval: 5
+  cooldownPeriod: 300
+  minReplicaCount: 0
+  maxReplicaCount: 10
+  triggers:
+  - type: rabbitmq
+    metadata:
+      direction: in
+      queueName: noze-queue
+      hostFromEnv: RABBITMQCONNECTION
+      queueLength: "5"
+---
+
