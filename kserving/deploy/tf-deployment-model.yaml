@@ -1,0 +1,22 @@
+apiVersion: serving.kubeflow.org/v1alpha1
+kind: "InferenceService"
+metadata:
+  name: "demo-app"
+  namespace: "knative-demo"
+spec:
+  transformer:
+    containers:
+    - image: <Docker Image URI>
+      name: user-container
+      imagePullPolicy: Always
+    imagePullSecrets:
+      - name: <Secret Name>
+  predictor:
+    serviceAccountName: <Service Account Name>
+    minReplicas: 0
+    tensorflow:
+      runtimeVersion: <Tensorflow Runtime Version>
+      storageUri: <Storage URI>
+    logger:
+      mode: all
+      url: <Logger URL>

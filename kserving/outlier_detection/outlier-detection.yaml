@@ -1,0 +1,25 @@
+apiVersion: serving.kubeflow.org/v1alpha1
+kind: InferenceService
+metadata:
+  name: autoencoder-recommender
+  namespace: kubeflow
+spec:
+  transformer:
+    container:
+    - image: <image_name>
+      name: <container_name>
+      imagePullPolicy: Always
+    imagePullSecrets:
+    - name: <image_pull_secret_name>
+  
+  predictor:
+    serviceAccontName: <service_account_name>
+    minReplicas: 1
+    tensorflow:
+      runtimeVersion: 1.14
+      storageUri: <storage_uri>
+      resources:
+        requests:
+          cpu: 1
+        limits:
+          cpu: 3

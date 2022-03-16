@@ -1,0 +1,1 @@
+from kfserving import KFServingClient

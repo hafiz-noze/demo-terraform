@@ -1,0 +1,18 @@
+apiVersion: serving.kubeflow.org/v1alpha1
+kind: InferenceService
+metadata:
+  name: concept_drift
+  namespace: kfserving-test
+spec:
+  predictor:
+    maxReplicas: 1
+    minReplicas: 1
+    containers:
+    - image: <image_name>
+      name: user-container
+      imagePullPolicy: Always
+      ports:
+        - containerPort: 8080
+          protocol: TCP
+    imagePullSecrets:
+      - name: <image_pull_secret_name>

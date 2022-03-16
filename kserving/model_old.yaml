@@ -1,0 +1,10 @@
+apiVersion: "serving.kubeflow.org/v1alpha1"
+kind: "InferenceService"
+metadata:
+  name: "tensorflow_model_old"
+spec:
+  predictor:
+    model: 
+      modelFormat:
+        name: nose_model_01
+      storageUri: "gs://kubeflow-examples/models/tensorflow/mnist/model"
