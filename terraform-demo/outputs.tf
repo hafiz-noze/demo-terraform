@@ -1,8 +1,5 @@
-provider "google" {
-  project = "Noze"
-}
-
-module "gke_auth" {
-  source = "../../gke_auth"
+output "cluster_name" {
+  description = "Cluster name"
+  value = module.gke.name 
   
 }
